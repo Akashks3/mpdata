@@ -1,0 +1,72 @@
+/* styles.css */
+    body {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: 700;
+        margin: 0;
+        margin-top: 10px;
+        margin-left: 200px;
+        padding: 30px;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+}
+
+.container {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 12px 45px 32px 34px;
+    box-sizing: border-box;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color:hsl(255, 94%, 79%);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input {
+    margin-bottom: 20px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: hsl(255, 94%, 79%);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid hsl(0, 2%, 9%);
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: hwb(239 23% 4%);
+}
+
+h3 {
+    margin-top: 20px;
+}
